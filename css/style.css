@@ -29,7 +29,7 @@ time, mark, audio, video {
 .header-image {
     background-image:url(./images/header.png);
     width: 100%;
-    height:auto;
+    height:500px;
     background-size: cover;
  　 background-position: center center;
  }
@@ -174,4 +174,13 @@ body
     width: auto;
     padding: 0 10px;
   }
-}
+ }
+ 
+@media (max-width: 768px) {
+ .header-image{
+      height:250px;
+  }
+ }
+ 
+
+
